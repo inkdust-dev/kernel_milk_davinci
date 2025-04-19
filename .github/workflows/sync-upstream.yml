@@ -18,5 +18,5 @@ jobs:
         uses: zhangnew/sync-upstream@v1
         with:
           upstream: vantoman/kernel_xiaomi_sm6150
-          upstream-branch: 11
+          upstream-branch: eleven
           branch: vantom-11
