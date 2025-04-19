@@ -2,7 +2,8 @@ name: Sync Upstream
 
 permissions: write-all
 
-on: [workflow_dispatch]
+on: 
+ workflow_dispatch:
 
 jobs:
   sync-upstream-vantom:
