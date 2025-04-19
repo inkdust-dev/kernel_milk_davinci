@@ -11,11 +11,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: vantom-14
+          ref: vantom-11
           fetch-depth: 0
       - name: Sync
         uses: zhangnew/sync-upstream@v1
         with:
           upstream: vantoman/kernel_xiaomi_sm6150
-          upstream-branch: 14
-          branch: vantom-14
+          upstream-branch: 11
+          branch: vantom-11
